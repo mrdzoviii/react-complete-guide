@@ -10,6 +10,10 @@ class Person extends Component {
            </div>
     )
     }
+
+    componentWillUnmount(){
+        console.log(`component will unmount`);
+    }
 }
 
 export default Person;
